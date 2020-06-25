@@ -135,7 +135,7 @@ def load_data(city, month, day):
     df['Month'] = df['Start Time'].dt.month
     df['Day of Week'] = df['Start Time'].dt.day_name()
 
-
+# Convert month name to index.
     if(month != 'all'):
         months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
         month = months.index(month)
@@ -237,20 +237,25 @@ def trip_duration_stats(df):
 
     # display mean travel time
     mean_trip_duration = int(df['Trip Duration'].mean())
+#calculate secondss
     mean_seconds = mean_trip_duration % 60
 
+
+#calculate days
     if(mean_trip_duration > 86400):
        mean_days = mean_trip_duration / 86400
        mean_trip_duration = mean_trip_duration % 86400
     else:
         mean_days = 0
 
+#calculate hours
     if(mean_trip_duration > 3600):
        mean_hours = mean_trip_duration / 3600
        mean_trip_duration = mean_trip_duration % 3600
     else:
         mean_hours = 0
 
+#calculate minutes
     if(mean_trip_duration > 60):
        mean_minutes = mean_trip_duration / 60
     else:

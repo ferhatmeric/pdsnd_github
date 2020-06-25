@@ -3,7 +3,7 @@
 - README file created on 26.06.2020
 
 ### Project Title
-Bikeshare Project
+-= BIKESHARE PROJECT =-
 
 ### Description
 1. Bikeshare project is written in Python language. 

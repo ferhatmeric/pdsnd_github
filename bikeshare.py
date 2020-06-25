@@ -34,6 +34,7 @@ def get_filters():
             elif(city == "3"):
                 city = "washington"
 
+    # get user input for approval
             response = input("You have selected {}, type 'yes' to approve or type anything to start over.\n\n".format(city.title())).strip().lower()
             if(response == "yes"):
                 city_selection = False
@@ -68,6 +69,7 @@ def get_filters():
             elif(month == "6" or month == "jun"):
                 month = "june"
 
+    # get user input for approval
             response = input("You have selected {}, type 'yes' to approve or type anything to start over.\n\n".format(month.title())).strip().lower()
             if(response == "yes"):
                 month_selection = False
@@ -103,6 +105,7 @@ def get_filters():
             elif(day == "7" or day == "sun"):
                 day = "sunday"
 
+    # get user input for approval
             response = input("You have selected {}, type 'yes' to approve or type anything to start over.\n\n".format(day.title())).strip().lower()
             if(response == "yes"):
                 day_selection = False

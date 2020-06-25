@@ -6,20 +6,20 @@ README file created on 26.06.2020
 Bikeshare Project
 
 ### Description
-- Bikeshare project is written in Python language. 
-- When you run the project .py file with python3, please follow the instructions displayed. 
-- Depending on your choice, some statistics are calculated by using data files provided by Udacity and printed on screen.
+1 Bikeshare project is written in Python language. 
+2 When you run the project .py file with python3, please follow the instructions displayed. 
+3 Depending on your choice, some statistics are calculated by using data files provided by Udacity and printed on screen.
 
 ### Files used
 This project uses files below:
-- bikeshare.py
-- chicago.csv
-- new_york_city.csv
-- washington.csv
+1 bikeshare.py
+2 chicago.csv
+3 new_york_city.csv
+4 washington.csv
 
 ### Credits
 Udacity online course & documentation
 Stackoverflow resources:
-- https://stackoverflow.com/questions/60214194/error-in-reading-stock-data-datetimeproperties-object-has-no-attribute-week
-- https://stackoverflow.com/questions/19384532/get-statistics-for-each-group-such-as-count-mean-etc-using-pandas-groupby
-- https://stackoverflow.com/questions/15222754/groupby-pandas-dataframe-and-select-most-common-value
+1 https://stackoverflow.com/questions/60214194/error-in-reading-stock-data-datetimeproperties-object-has-no-attribute-week
+2 https://stackoverflow.com/questions/19384532/get-statistics-for-each-group-such-as-count-mean-etc-using-pandas-groupby
+3 https://stackoverflow.com/questions/15222754/groupby-pandas-dataframe-and-select-most-common-value
